@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian:jessie
 MAINTAINER Akira Funahashi "funa@bio.keio.ac.jp"
 
 RUN apt-get -y update && apt-get install -y libxml2
